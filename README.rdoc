@@ -6,5 +6,5 @@ mapped to that particular user-name(if available).
 Test-scripts :-
 
 1> Clone the project and go to /selenium/automation_sccripts.
-2> bundle install
-2> Run 'rspec test_scripts.rb'
+2> bundle install.
+3> Run 'rspec test_scripts.rb'.
