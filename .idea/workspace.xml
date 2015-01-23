@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.60294116" vertical-offset="385" max-vertical-offset="1065">
+              <caret line="53" column="10" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="1254" max-vertical-offset="3945">
-              <caret line="99" column="7" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="7" />
+            <state vertical-scroll-proportion="-8.884615" vertical-offset="1149" max-vertical-offset="3825">
+              <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -583,18 +583,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state vertical-scroll-proportion="-8.884615" vertical-offset="1149" max-vertical-offset="3825">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1254" max-vertical-offset="3945">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.60294116" vertical-offset="385" max-vertical-offset="1065">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="10" />
           <folding />
         </state>
       </provider>
