@@ -1,11 +1,11 @@
 <div class="full-wrapper">
   <div class="wrapper-new">
-    <%= link_to 'Home', root_url%>
+    <%= link_to 'Home', root_url %>
     <h1 class="h1">Listing results from Twitter, Github and RubyGems!!</h1>
     <% unless @twitter.empty? %>
         <h4>Recent tweets</h4>
         <ul class="list-group">
-          <% @twitter.each do |t|%>
+          <% @twitter.each do |t| %>
               <li class="list-group-item"><%= t.text %></li>
           <% end %>
         </ul>
@@ -15,7 +15,7 @@
         <h4>Github repositories</h4>
         <h5> Date of Joining: <%= @github_user["created_at"].to_time.strftime("%A, %B %d %Y") %></h5>
         <ul class="list-group">
-          <% @github_repos.each do |gr|%>
+          <% @github_repos.each do |gr| %>
               <li class="list-group-item"><%= gr %></li>
           <% end %>
         </ul>
@@ -24,12 +24,12 @@
     <% unless @gems.empty? %>
         <h4>Published gems</h4>
         <ul class="list-group">
-          <% @gems.each do |g|%>
+          <% @gems.each do |g| %>
               <li class="list-group-item"><%= g %></li>
           <% end %>
         </ul>
     <% end %>
 
-    <%= link_to 'Download', '#', :onclick => "window.print()"  %>
+    <%= link_to 'Download', '#', :onclick => "window.print()" %>
   </div>
 </div>

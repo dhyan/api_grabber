@@ -8,10 +8,12 @@ class UsersController < ApplicationController
 
   private
 
+  #fetch twitter details
   def twitter
     @twitter = $client.search("from:#{params[:username]}", result_type: "recent").take(10)
   end
 
+#fetch github details
   def github
     begin
       github = Github.new :oauth_token => GITHUB_TOKEN
@@ -24,9 +26,10 @@ class UsersController < ApplicationController
     end
   end
 
+  #fetch details from Rubygems.org
   def ruby_gems
     @gems = begin
-      Gems.gems(params[:username]).map{|g| g["name"]}
+      Gems.gems(params[:username]).map { |g| g["name"] }
     rescue Exception => e
       []
     end
