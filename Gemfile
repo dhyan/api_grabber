@@ -5,7 +5,7 @@ gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-gem 'pg'
+#gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -42,6 +42,10 @@ group :test, :development do
   gem "selenium-webdriver", "~> 2.43.0"
 end
 
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
@@ -60,7 +64,7 @@ gem "gems"
 
 gem "typhoeus"
 
-gem 'prawn-rails'
+#gem 'prawn-rails'
 
 gem "less-rails"
 gem 'twitter-bootstrap-rails'
