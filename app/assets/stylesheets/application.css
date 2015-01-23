@@ -1,0 +1,104 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+body, html{
+ margin:0;
+ height:100%;
+}
+*{
+  box-sizing:border-box;
+}
+.full-wrapper{
+  width:100%;
+  height:100%;
+  display:table;
+  text-align:center;
+  background:#C2FFE0;
+}
+.wrapper{
+  width:100%;
+  display:table-cell;
+  vertical-align:middle;
+}
+.wrapper-new{
+   margin: 0 auto;
+   width: 75%;
+   margin-top:3%;
+}
+.inner-wrapper{
+   width:50%;
+   margin:0 auto;
+}
+.input-box{
+  width:100%;
+  height:40px;
+  border-radius:5px;
+  background:#fff;
+  cursor:text;
+}
+.h2{
+ color: #174d1b;
+ font-size:30px;
+ margin:10px 0;
+ font-family: Comic Sans MS;
+} 
+.h4{
+ color:#333;
+ font-size:18px;
+ margin:10px 0;
+ font-family: Comic Sans MS;
+}
+.button-wrapper{
+ width:100%;
+ float:left;
+ margin-top:10px;
+ }
+.button{
+  width:100px;
+  height:40px;
+  margin:0 auto;
+  background:#fff;
+  color: #13821a;
+  font-size:18px;
+  font-family: Comic Sans MS;
+  border-radius:5px;
+  text-align:center;
+  line-height:40px;
+  cursor:pointer;
+  }
+ .input-box > input {
+    height: 40px !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+.button > input {
+    background: none !important;
+    border: medium none !important;
+    border-radius: 5px !important;
+    height: 40px !important;
+    width: 100% !important;
+} 
+ .wrapper-new .list-group{
+    margin: 0 auto !important;
+    text-align: left !important;
+    width: 97% !important;
+}
+.wrapper-new h4{
+    text-align: left !important;
+}
+.wrapper-new h1{
+	font-size:28px;
+}
+.wrapper-new h5{
+	text-align: left;
+}

@@ -1,0 +1,17 @@
+<div class="full-wrapper">
+    <div class="wrapper">
+       <div class="inner-wrapper">
+          <h2 class="h2">Welcome!!!</h2>
+          <h4 class="h4">Find your latest Tweets, Github repo's,superb gems by just entering the user-name below!</h4>
+          <%= form_tag grab_api_data_users_path, method: "post" do %>
+            <div class="input-box">
+            <%= text_field_tag :username, nil, placeholder: "Username" %>
+            </div>
+            <div class="button-wrapper">
+              <div class="button"><%= submit_tag("Let's Go..") %>
+              </div>
+            </div>
+          <% end %>
+       </div>  
+     </div>
+</div>
