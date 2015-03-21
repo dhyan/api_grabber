@@ -39,7 +39,7 @@ group :test, :development do
   gem "shoulda-matchers"
   gem "factory_girl_rails"
   gem "capybara", "1.1.2"
-  gem "selenium-webdriver", "~> 2.43.0"
+  gem "selenium-webdriver", "~> 2.45.0"
 end
 
 group :production do
